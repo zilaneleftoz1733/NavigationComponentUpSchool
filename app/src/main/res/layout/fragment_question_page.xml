@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rose_pink"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.QuestionPageFragment">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/surnama"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/questions1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="En Sevdiğin Hobin Nedir?"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/questions2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="Hobilerin Senin İçin Ne Anlam İfade Ediyor?"
+        android:inputType="none"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/questions3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="Hobilerini Ne Zaman Yapmayı Tercih Edersin?"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/questions4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="Yeni Bir Hobiyi Denemeye Ne Dersin?"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/questions5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="hobilerini ne sıklıkla yaparsın"
+        android:inputType="none"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnEnd"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/soft_green"
+        android:layout_weight="0"
+        android:text="Bitti" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_weight="0"
+        android:background="@color/soft_green"
+        android:baselineAlignBottom="false"
+        android:src="@drawable/ic_back" />
+
+</LinearLayout>
